@@ -70,7 +70,8 @@
     src={{ vault_download_dir }}/{{ vault_archive }}
     dest={{ vault_install_dir }}
     copy=no
-    creates={{ vault_install_dir }}/vault
+  when: not vault_archive_stat.stat.exists
+  notify: restart vault
   tags: vault
 
 - name: Install libcap2-bin

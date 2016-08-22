@@ -2,7 +2,7 @@
 # vars file for vault
 
 vault_url: https://releases.hashicorp.com/vault/{{ vault_version }}/vault_{{ vault_version }}_linux_amd64.zip
-vault_archive: vault.zip
+vault_archive: vault_{{ vault_version }}_linux_amd64.zip
 vault_download_dir: /tmp
 vault_config_dir: /etc/vault.d
 vault_pid_file: /var/run/vault.pid
