@@ -1,8 +1,8 @@
 ---
 # defaults file for vault
 
-vault_version: 0.6.1
-vault_sha256sum: 4f248214e4e71da68a166de60cc0c1485b194f4a2197da641187b745c8d5b8be
+vault_version: 0.6.4
+vault_sha256sum: 04d87dd553aed59f3fe316222217a8d8777f40115a115dac4d88fac1611c51a6
 vault_install_dir: /usr/local/bin
 
 vault_backend: consul
