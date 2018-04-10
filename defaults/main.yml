@@ -19,7 +19,9 @@ vault_backend_consul_datacenter: ''
 vault_backend_consul_token: ''
 vault_backend_consul_tls_skip_verify: false
 vault_backend_consul_tls_ca_file: ''
+#vault_backend_consul_tls_cert:
 vault_backend_consul_tls_cert_file: ''
+#vault_backend_consul_tls_key:
 vault_backend_consul_tls_key_file: ''
 
 vault_backend_zookeeper_advertise_addr: ''
