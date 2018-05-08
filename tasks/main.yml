@@ -106,7 +106,7 @@
 
 - name: Reload systemd configuration
   command: systemctl daemon-reload
-  when: write_systemd_configuration|changed
+  when: write_systemd_configuration is changed
   tags: vault
 
 - name: Create Vault configuration file
