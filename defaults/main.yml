@@ -57,8 +57,8 @@ vault_listener_tcp_tls_key_file: ''
 vault_listener_tcp_tls_key_local_file: ''
 vault_listener_tcp_tls_min_version: tls12
 
-vault_telemetry_statsite_address: ''
-vault_telemetry_statsd_address: ''
+vault_telemetry_statsite_address: "127.0.0.1:8125"
+vault_telemetry_statsd_address: "127.0.0.1:8125"
 vault_telemetry_disable_hostname: false
 
 # upstart and systemd supported
